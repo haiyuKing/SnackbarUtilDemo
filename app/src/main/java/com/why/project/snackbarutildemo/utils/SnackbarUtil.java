@@ -22,10 +22,10 @@ public class SnackbarUtil {
 	public static final int Alert = 4;//错误提示
 
 
-	public static int red = 0xfff44336;
-	public static int green = 0xff4caf50;
-	public static int blue = 0xff2195f3;
-	public static int orange = 0xffffc107;
+	public static int red = 0xffFE4949;//红色错误提示：原方案-f44336
+	public static int green = 0xffa1c45a;//绿色成功提示：原方案-4caf50
+	public static int blue = 0xff54B0FF;//蓝色普通提示：原方案-2195f3
+	public static int orange = 0xffFF8438;//橙色警告提示：原方案-ffc107
 
 	/**
 	 * 短显示Snackbar，自定义颜色
